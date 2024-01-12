@@ -1,0 +1,142 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container {
+  max-width: 1000px;
+  padding: 20px;
+}
+
+.top-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 140px;
+  padding-top: 20px;
+  border-radius: 13px;
+  margin-top: 30px;
+  margin: 10px;
+}
+.details-container {
+  font-family: 'Roboto';
+  margin-left: 25px;
+  margin-bottom: 25px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+.top-heading {
+  font-size: 30px;
+  color: #475569;
+}
+.para {
+  font-size: 17px;
+  color: #475569;
+}
+.graph {
+  font-size: 17px;
+  color: #0b69ff;
+  font-weight: 550;
+}
+.data-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  gap: 20px;
+}
+.data-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+}
+.form-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+}
+.form-input {
+  font-family: 'Roboto';
+  height: 40px;
+  width: 250px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  padding: 10px;
+  border-radius: 7px;
+}
+.form-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  margin: 35px;
+}
+.form-btn {
+  align-self: flex-start;
+  margin: 10px;
+  padding: 8px 20px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.option-value {
+  font-family: 'Roboto';
+  padding: 10px;
+}
+.history-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+}
+.history-details {
+  font-family: 'Roboto';
+  margin: 35px;
+}
+.history-cards {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.history {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  gap: 30px;
+  padding-left: 15px;
+  padding-right: 50px;
+  border: 1px solid #cbd5e1;
+}
+.history-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #334155;
+  padding-right: 30px;
+}
+@media screen and (max-width: 576px) {
+  .top-container {
+    width: 360px;
+  }
+  .para {
+    font-size: 13px;
+  }
+  .details-container {
+    margin-bottom: 15px;
+    margin: 15px;
+  }
+  .data-container {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+  }
+  .form-details {
+    margin: 20px;
+  }
+  .history-details {
+    margin: 20px;
+  }
+}

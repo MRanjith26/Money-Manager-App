@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+  gap: 10px;
+}
+.card {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.balance {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+.income {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+.expense {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+.details {
+  margin-right: 10px;
+}
+.icon {
+  width: 45px;
+  height: 45px;
+  align-self: center;
+  margin-right: 20px;
+}
+.count-heading {
+  font-weight: 'Roboto';
+  font-size: 15px;
+  color: #7e858e;
+}
+.count {
+  font-weight: 'Roboto';
+  font-size: 20px;
+  color: #7e858e;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .count-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin: 10px;
+  }
+}
