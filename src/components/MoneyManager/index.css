@@ -106,6 +106,7 @@
   justify-content: space-between;
   align-items: center;
   font-family: 'Roboto';
+  max-width: 700px;
   gap: 30px;
   padding-left: 15px;
   padding-right: 50px;

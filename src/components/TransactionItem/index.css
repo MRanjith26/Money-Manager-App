@@ -1,1 +1,27 @@
 /* Write your CSS here */
+.History-Item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  align-items: center;
+  font-family: 'Roboto';
+  border: 1px solid #cbd5e1;
+  max-width: 700px;
+}
+.history-text {
+  font-size: 13px;
+  font-weight: 500;
+  color: #334155;
+  text-align: center;
+}
+.delete-icon {
+  width: 15px;
+  margin-right: 5px;
+}
+.delete-btn {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
